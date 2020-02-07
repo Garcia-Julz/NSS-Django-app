@@ -1,0 +1,63 @@
+[
+    {
+        "model": "libraryapp.book",
+        "pk": 1,
+        "fields": {
+            "Title": "Title 1",
+            "ISBN_number": "12345456",
+            "Author": " Author 1",
+            "Year_published": "2000",
+            "location": 1,
+            "librarian": 1
+        }
+    },
+    {
+        "model": "libraryapp.book",
+        "pk": 2,
+        "fields": {
+            "Title": "Title 2",
+            "ISBN_number": "9876545678",
+            "Author": " Author 1",
+            "Year_published": "2000",
+            "location": 1,
+            "librarian": 1
+        }
+    },
+    {
+        "model": "libraryapp.book",
+        "pk": 3,
+        "fields": {
+            "Title": "Title 3",
+            "ISBN_number": "0987654323",
+            "Author": " Author 1",
+            "Year_published": "2000",
+            "location": 1,
+            "librarian": 1
+        }
+    },
+    {
+        "model": "libraryapp.book",
+        "pk": 4,
+        "fields": {
+            "Title": "Title 4",
+            "ISBN_number": "98767234512",
+            "Author": " Author 1",
+            "Year_published": "2000",
+            "location": 1,
+            "librarian": 1
+        }
+    },
+    {
+        "model": "libraryapp.book",
+        "pk": 5,
+        "fields": {
+            "Title": "Title 5",
+            "ISBN_number": "098767890876",
+            "Author": " Author 5",
+            "Year_published": "2000",
+            "location": 1,
+            "librarian": 1
+        }
+    }
+    
+]
