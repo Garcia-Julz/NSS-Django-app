@@ -1,7 +1,5 @@
 from .library import Library
 from .librarian import Librarian
-
-
 from django.db import models
 
 class Book(models.Model):
