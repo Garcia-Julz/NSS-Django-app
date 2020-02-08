@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,9 +11,9 @@
     <ol>
     {% for book in all_books %}
         <li>
-            {{ book.title }}
-            by {{book.author}}
-            published in {{book.year_published}}
+            {{ book.Title }}
+            by {{book.Author}}
+            published in {{book.Year_published}}
         </li>
     {% endfor %}
     </ol>

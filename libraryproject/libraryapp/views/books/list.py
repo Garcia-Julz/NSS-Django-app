@@ -14,7 +14,7 @@ def book_list(request):
             select
                 b.id,
                 b.title,
-                b.isbn,
+                b.isbn_number,
                 b.author,
                 b.year_published,
                 b.librarian_id,
@@ -29,7 +29,7 @@ def book_list(request):
                 book = Book()
                 book.id = row['id']
                 book.Title = row['title']
-                book.ISBN_number = row['isbn']
+                book.ISBN_number = row['isbn_number']
                 book.Author = row['author']
                 book.Year_published = row['year_published']
                 book.librarian_id = row['librarian_id']
