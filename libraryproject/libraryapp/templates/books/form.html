@@ -28,15 +28,21 @@
           <input id="isbn" type="text" name="isbn">
       </fieldset>
       <fieldset>
-          <label for="location">Library: </label>
-          <select id="location" type="text" name="location">
+            <label for="location">Library: </label>
+            <select id="location" type="text" name="location">
                 {% for library in all_libraries %}
-                    <option value="{{ library.id }}">{{ library.title }}</option>
+                <option {% if library.id == book.location_id %}selected{% endif %} value="{{ library.id }}">
+                    {{ library.title }}</option>
                 {% endfor %}
-          </select>
-      </fieldset>
+            </select>
+        </fieldset>
 
-      <input type="submit" value="Add It" />
+        {% if book.id is not None %}
+            <input type="hidden" name="actual_method" value="PUT">
+            <input type="submit" value="Update" />
+        {% else %}
+            <input type="submit" value="Create" />
+        {% endif %}
     </form>
   </body>
 </html>
