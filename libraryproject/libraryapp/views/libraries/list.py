@@ -14,6 +14,7 @@ def libraries_list(request):
 
             db_cursor.execute("""
             select
+                lib.id,
                 lib.title,
                 lib.address
             from libraryapp_library lib;
@@ -24,6 +25,7 @@ def libraries_list(request):
 
             for row in dataset:
                 lib = Library()
+                lib.id = row["id"]
                 lib.title = row["title"]
                 lib.address = row["address"]
 
