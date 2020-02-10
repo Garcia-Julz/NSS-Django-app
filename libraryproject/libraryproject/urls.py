@@ -1,3 +1,5 @@
+from django.urls import path
+
 """libraryproject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -21,4 +23,5 @@ from libraryapp.models import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('libraryapp.urls')),
+    path('books/<int:book_id>/', book_details, name='book'),
 ]
