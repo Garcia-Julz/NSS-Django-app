@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://test.net",
+  "type": "object",
+  "properties": {
+    "products": {
+      "id": "http://test.net/products",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://test.net/products/0",
+          "type": "object",
+          "properties": {
+            "name": "[object Object]",
+            "code": {
+              "id": "http://test.net/products/0/code",
+              "type": "integer"
+            },
+            "cost": {
+              "id": "http://test.net/products/0/cost",
+              "type": "integer"
+            },
+            "description": "[object Object]",
+            "inventory_on_hand": "integer"
+          },
+          "required": [
+            "name",
+            "code",
+            "cost",
+            "description",
+            "inventory_on_hand"
+          ]
+        },
+        {
+          "id": "http://test.net/products/1",
+          "type": "object",
+          "properties": {
+            "name": "[object Object]",
+            "code": {
+              "id": "http://test.net/products/1/code",
+              "type": "integer"
+            },
+            "cost": {
+              "id": "http://test.net/products/1/cost",
+              "type": "integer"
+            },
+            "description": "[object Object]",
+            "inventory_on_hand": "integer"
+          }
+        },
+        {
+          "id": "http://test.net/products/2",
+          "type": "object",
+          "properties": {
+            "name": "[object Object]",
+            "code": {
+              "id": "http://test.net/products/2/code",
+              "type": "integer"
+            },
+            "cost": {
+              "id": "http://test.net/products/2/cost",
+              "type": "integer"
+            },
+            "description": "[object Object]",
+            "inventory_on_hand": "integer"
+          }
+        }
+      ],
+      "required": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "required": [
+    "products"
+  ]
+}

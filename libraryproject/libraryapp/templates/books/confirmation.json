@@ -1,0 +1,29 @@
+{
+    "order_confirmation": "ipsum incididunt tempor",
+    "customer_name": "Excepteur",
+    "customer_email": "ex cillum exercitation cupidatat irure",
+    "customer_phone": [
+      {
+        "number": -85855015,
+        "type": "irure dolore Ut nulla commodo",
+        "contact": false
+      },
+      {
+        "number": -59920307,
+        "type": "cupidatat et ea",
+        "contact": true
+      },
+      {
+        "number": -61436033,
+        "type": "minim ipsum voluptate",
+        "contact": false
+      }
+    ],
+    "purchase_products": [
+      {
+        "code": 54117634,
+        "quantity": 3
+      }
+    ],
+    "order_total": -21259224
+  }

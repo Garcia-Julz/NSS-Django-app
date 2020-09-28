@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://test.net",
+  "type": "object",
+  "properties": {
+    "customer_name": {
+      "id": "http://test.net/customer_name",
+      "type": "string"
+    },
+    "customer_email": {
+      "id": "http://test.net/customer_email",
+      "type": "string"
+    },
+    "customer_phone": {
+      "id": "http://test.net/customer_phone",
+      "type": "array",
+      "items": {
+        "id": "http://test.net/customer_phone/0",
+        "type": "object",
+        "properties": {
+          "number": {
+            "id": "http://test.net/customer_phone/0/number",
+            "type": "integer"
+          },
+          "type": {
+            "id": "http://test.net/customer_phone/0/type",
+            "type": "string"
+          },
+          "contact": {
+            "id": "http://test.net/customer_phone/0/contact",
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "shipping_address": {
+      "id": "http://test.net/shipping_address",
+      "type": "array",
+      "items": {
+        "id": "http://test.net/shipping_address/0",
+        "type": "object",
+        "properties": {
+          "street": {
+            "id": "http://test.net/shipping_address/0/street",
+            "type": "string"
+          },
+          "city": {
+            "id": "http://test.net/shipping_address/0/city",
+            "type": "string"
+          },
+          "state": {
+            "id": "http://test.net/shipping_address/0/state",
+            "type": "string"
+          },
+          "zipcode": {
+            "id": "http://test.net/shipping_address/0/zipcode",
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "billing_address": {
+      "id": "http://test.net/billing_address",
+      "type": "array",
+      "items": {
+        "id": "http://test.net/billing_address/0",
+        "type": "object",
+        "properties": {
+          "street": {
+            "id": "http://test.net/billing_address/0/street",
+            "type": "string"
+          },
+          "city": {
+            "id": "http://test.net/billing_address/0/city",
+            "type": "string"
+          },
+          "state": {
+            "id": "http://test.net/billing_address/0/state",
+            "type": "string"
+          },
+          "zipcode": {
+            "id": "http://test.net/billing_address/0/zipcode",
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "purchase_products": {
+      "id": "http://test.net/purchase_products",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://test.net/purchase_products/0",
+          "type": "object",
+          "properties": {
+            "code": {
+              "id": "http://test.net/purchase_products/0/code",
+              "type": "integer"
+            },
+            "quantity": {
+              "id": "http://test.net/purchase_products/0/quantity",
+              "type": "integer"
+            }
+          }
+        },
+        {
+          "id": "http://test.net/purchase_products/1",
+          "type": "object",
+          "properties": {
+            "code": {
+              "id": "http://test.net/purchase_products/1/code",
+              "type": "integer"
+            },
+            "quantity": {
+              "id": "http://test.net/purchase_products/1/quantity",
+              "type": "integer"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "required": [
+    "customer_name",
+    "customer_email",
+    "customer_phone",
+    "shipping_address",
+    "billing_address",
+    "purchase_products"
+  ]
+}

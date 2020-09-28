@@ -1,0 +1,178 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://test.net",
+  "type": "object",
+  "properties": {
+    "product_details": {
+      "id": "http://test.net/product_details",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://test.net/product_details/0",
+          "type": "object",
+          "properties": {
+            "name": "[object Object]",
+            "code": {
+              "id": "http://test.net/product_details/0/code",
+              "type": "integer"
+            },
+            "product_type": {
+              "id": "http://test.net/product_details/0/product_type",
+              "type": "object",
+              "properties": {
+                "type_name": {
+                  "id": "http://test.net/product_details/0/product_type/type_name",
+                  "type": "string"
+                },
+                "type": {
+                  "id": "http://test.net/product_details/0/product_type/type",
+                  "type": "string"
+                }
+              }
+            },
+            "cost": {
+              "id": "http://test.net/product_details/0/cost",
+              "type": "integer"
+            },
+            "description": "[object Object]",
+            "pushed_product": {
+              "id": "http://test.net/product_details/0/pushed_product",
+              "type": "boolean"
+            },
+            "callback": {
+              "id": "http://test.net/product_details/0/callback",
+              "type": "string"
+            },
+            "category": {
+              "id": "http://test.net/product_details/0/category",
+              "type": "object",
+              "properties": {
+                "name": "[object Object]",
+                "type": {
+                  "id": "http://test.net/product_details/0/category/type",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "required": [
+            "name",
+            "code",
+            "product_type",
+            "cost",
+            "description",
+            "pushed_product",
+            "callback",
+            "category"
+          ]
+        },
+        {
+          "id": "http://test.net/product_details/1",
+          "type": "object",
+          "properties": {
+            "name": "[object Object]",
+            "code": {
+              "id": "http://test.net/product_details/1/code",
+              "type": "integer"
+            },
+            "product_type": {
+              "id": "http://test.net/product_details/1/product_type",
+              "type": "object",
+              "properties": {
+                "type_name": {
+                  "id": "http://test.net/product_details/1/product_type/type_name",
+                  "type": "string"
+                },
+                "type": {
+                  "id": "http://test.net/product_details/1/product_type/type",
+                  "type": "string"
+                }
+              }
+            },
+            "cost": {
+              "id": "http://test.net/product_details/1/cost",
+              "type": "integer"
+            },
+            "description": "[object Object]",
+            "pushed_product": {
+              "id": "http://test.net/product_details/1/pushed_product",
+              "type": "boolean"
+            },
+            "callback": {
+              "id": "http://test.net/product_details/1/callback",
+              "type": "string"
+            },
+            "category": {
+              "id": "http://test.net/product_details/1/category",
+              "type": "object",
+              "properties": {
+                "name": "[object Object]",
+                "type": {
+                  "id": "http://test.net/product_details/1/category/type",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "http://test.net/product_details/2",
+          "type": "object",
+          "properties": {
+            "name": "[object Object]",
+            "code": {
+              "id": "http://test.net/product_details/2/code",
+              "type": "integer"
+            },
+            "product_type": {
+              "id": "http://test.net/product_details/2/product_type",
+              "type": "object",
+              "properties": {
+                "type_name": {
+                  "id": "http://test.net/product_details/2/product_type/type_name",
+                  "type": "string"
+                },
+                "type": {
+                  "id": "http://test.net/product_details/2/product_type/type",
+                  "type": "string"
+                }
+              }
+            },
+            "cost": {
+              "id": "http://test.net/product_details/2/cost",
+              "type": "integer"
+            },
+            "description": "[object Object]",
+            "pushed_product": {
+              "id": "http://test.net/product_details/2/pushed_product",
+              "type": "boolean"
+            },
+            "callback": {
+              "id": "http://test.net/product_details/2/callback",
+              "type": "string"
+            },
+            "category": {
+              "id": "http://test.net/product_details/2/category",
+              "type": "object",
+              "properties": {
+                "name": "[object Object]",
+                "type": {
+                  "id": "http://test.net/product_details/2/category/type",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "required": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "required": [
+    "product_details"
+  ]
+}

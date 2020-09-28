@@ -1,0 +1,51 @@
+{
+  "product_details": [
+    {
+      "name": "[object Object]",
+      "code": 84808035,
+      "product_type": {
+        "type_name": "This is my type name",
+        "type": "My type is blah blah"
+      },
+      "cost": 799,
+      "description": "[object Object]",
+      "pushed_product": false,
+      "callback": "callback string",
+      "category": {
+        "name": "[object Object]"
+      }
+    },
+    {
+      "name": "[object Object]",
+      "code": 62091446,
+      "product_type": {
+        "type_name": "aliquip nostrud ut officia",
+        "type": "reprehenderit laboris cillum consectetur Ut"
+      },
+      "cost": 300,
+      "description": "[object Object]",
+      "pushed_product": true,
+      "callback": "callback string",
+      "category": {
+        "name": "[object Object]",
+        "type": "My type is blah blah"
+      }
+    },
+    {
+      "name": "[object Object]",
+      "code": 94504273,
+      "product_type": {
+        "type_name": "reprehenderit sint cillum",
+        "type": "commodo ea"
+      },
+      "cost": 50,
+      "description": "[object Object]",
+      "pushed_product": false,
+      "callback": "callback string",
+      "category": {
+        "name": "[object Object]",
+        "type": "in in"
+      }
+    }
+  ]
+}

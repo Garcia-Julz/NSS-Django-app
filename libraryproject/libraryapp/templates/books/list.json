@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "name": "[object Object]",
+        "code": 16731316,
+        "cost": -29081254,
+        "description": "[object Object]",
+        "inventory_on_hand": "integer"
+      },
+      {
+        "name": "[object Object]",
+        "code": 6563991,
+        "cost": -78688236,
+        "description": "[object Object]",
+        "inventory_on_hand": "integer"
+      },
+      {
+        "name": "[object Object]",
+        "code": 89361992,
+        "cost": 17527734,
+        "description": "[object Object]"
+      }
+    ]
+  }

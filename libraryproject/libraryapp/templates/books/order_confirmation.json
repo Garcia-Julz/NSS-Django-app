@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://test.net",
+  "type": "object",
+  "properties": {
+    "order_confirmation": {
+      "id": "http://test.net/order_confirmation",
+      "type": "string"
+    },
+    "customer_name": {
+      "id": "http://test.net/customer_name",
+      "type": "string"
+    },
+    "customer_email": {
+      "id": "http://test.net/customer_email",
+      "type": "string"
+    },
+    "customer_phone": {
+      "id": "http://test.net/customer_phone",
+      "type": "array",
+      "items": {
+        "id": "http://test.net/customer_phone/0",
+        "type": "object",
+        "properties": {
+          "number": {
+            "id": "http://test.net/customer_phone/0/number",
+            "type": "integer"
+          },
+          "type": {
+            "id": "http://test.net/customer_phone/0/type",
+            "type": "string"
+          },
+          "contact": {
+            "id": "http://test.net/customer_phone/0/contact",
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "purchase_products": {
+      "id": "http://test.net/purchase_products",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://test.net/purchase_products/0",
+          "type": "object",
+          "properties": {
+            "code": {
+              "id": "http://test.net/purchase_products/0/code",
+              "type": "integer"
+            },
+            "quantity": {
+              "id": "http://test.net/purchase_products/0/quantity",
+              "type": "integer"
+            }
+          }
+        },
+        {
+          "id": "http://test.net/purchase_products/1",
+          "type": "object",
+          "properties": {
+            "code": {
+              "id": "http://test.net/purchase_products/1/code",
+              "type": "integer"
+            },
+            "quantity": {
+              "id": "http://test.net/purchase_products/1/quantity",
+              "type": "integer"
+            }
+          }
+        }
+      ]
+    },
+    "order_total": {
+      "id": "http://test.net/order_total",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "order_confirmation",
+    "customer_name",
+    "customer_email",
+    "customer_phone",
+    "purchase_products",
+    "order_total"
+  ]
+}

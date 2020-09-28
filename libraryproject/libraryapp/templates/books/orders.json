@@ -1,0 +1,43 @@
+{
+    "customer_name": "irure in voluptate labore Ut",
+    "customer_email": "aute anim sunt ut consectetur",
+    "customer_phone": [
+      {
+        "number": 9435522903,
+        "type": "Cell Phone",
+        "contact": true
+      }
+    ],
+    "shipping_address": [
+      {
+        "street": "334 4th ave",
+        "city": "Dallas",
+        "state": "TX",
+        "zipcode": 12345
+      }
+    ],
+    "billing_address": [
+      {
+        "street": "9422 9th st",
+        "city": "Folore",
+        "state": "NC",
+        "zipcode": -1213108
+      },
+      {
+        "street": "334 4th ave",
+        "city": "Dallas",
+        "state": "TX",
+        "zipcode": 12345
+      }
+    ],
+    "purchase_products": [
+      {
+        "code": 84808035,
+        "quantity": 2
+      },
+      {
+        "code": 62091446,
+        "quantity": 1
+      }
+    ]
+  }
